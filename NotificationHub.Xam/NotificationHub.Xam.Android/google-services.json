@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394140934683",
+    "project_id": "notifications-f09d9",
+    "storage_bucket": "notifications-f09d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394140934683:android:69b2d12b7d6d3cc6dc4ebe",
+        "android_client_info": {
+          "package_name": "com.lucander.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394140934683-adp94md6tohe34ri9idhqvhii2816k8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY5Z5k5Pk1yrXON1YERpbWpAeWRp-YuoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394140934683-adp94md6tohe34ri9idhqvhii2816k8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

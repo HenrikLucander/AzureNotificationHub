@@ -14,7 +14,7 @@ namespace NotificationHub.Xam.Droid.Services
     [IntentFilter(new[] { "com.google.firebase.MESSAGING_EVENT" })]
     public class MyFireBaseMessagingService : FirebaseMessagingService
     {
-        internal static readonly string NOTIFICATION_CHANNEL_ID = "NOTIFICATION_CHANNEL_ID";
+        internal static readonly string NOTIFICATION_CHANNEL_ID = "default_notification_channel_id";
 
         public override void OnNewToken(string newToken)
         {

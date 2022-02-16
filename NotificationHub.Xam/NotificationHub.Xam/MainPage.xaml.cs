@@ -7,9 +7,10 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Essentials;
+
 using Xamarin.Forms;
 using System.Text.Json;
+using Xamarin.Essentials;
 
 namespace NotificationHub.Xam
 {
@@ -20,7 +21,7 @@ namespace NotificationHub.Xam
             InitializeComponent();
 
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("http://localhost:5000");
+            _httpClient.BaseAddress = new Uri("http://localhost:5018");
 
             PlatformLabel.Text = $"Platform: {DevicePlatform}";
             DeviceIdLabel.Text = $"DeviceId: {DeviceId}";

@@ -9,7 +9,7 @@ using System.Xml;
 
 namespace NotificationHub.API.Services
 {
-    public class NotificationHubService
+    public class NotificationHubService : INotificationHubService
     {
         private readonly string _namespaceName;
         private readonly string _hubName;
